@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.backends.legacy:build"
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "openfront-notifier"
-version = "0.1.0"
+version = "0.1.1"
 requires-python = ">=3.9"
 description = "Notifies you when there is an Openfront game about to start that matches your desired filters."
 dependencies = [
